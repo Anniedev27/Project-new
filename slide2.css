@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+.main1 {
+  max-width: 1110px;
+  
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column1 {
+  padding: 8px;
+  margin-top: 50px;
+}
+
+.column1 {
+  width: 33%;
+  
+}
+
+
+/* Content */
+.content {
+  background: #574EE4;
+  border-radius: 20px;
+  height: 450px;
+}
+.content img {
+  border-radius: 20px 20px 0px 0px;
+  height: 60%;
+}
+.coln.active {
+  display: block; /* Show the active element */
+}
+.text {
+  margin-left: 16px;
+}
+.text h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: justified;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.text p {
+  margin-left: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: justified;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+.text span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: justified;
+  margin-top: 5px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Next and previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: #574EE4;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  margin-right: 85px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #717171;
+}

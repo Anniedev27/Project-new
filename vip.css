@@ -1,0 +1,71 @@
+.ads-container {
+  display: grid;
+  height: 500px;
+  grid-template-columns: 53.4% 45%;
+  gap: 20px; 
+}
+.ads-container div {
+  background: linear-gradient(309.88deg, #120E58 7.49%, #241BB1 100%); 
+  box-shadow: 0px 0px 15px 0px #0000001A;
+  margin-top: 20px;
+}
+.ads-container div h1{
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 110px;
+}
+.ads-container div p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color:#FFFFFF;
+}
+.vip-signal{
+  height: 400px;
+  background-image: linear-gradient(309.88deg, rgba(213, 211, 248, 0.5), #D5D3F8), url('images/coin-left.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.vip-signal h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  padding-top: 120px;
+  color: #010104;
+}
+.vip-signal button {
+  width: 305px;
+  height: 80px;
+  top: 211px;
+  left: 604px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 10px;
+  background: #2D22DD;
+  border: none;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  color: #FFFFFF;
+
+}
+
+@media all and (max-width: 376px) {
+  .ads-container {
+   display: none;
+  }
+  .vip-signal {
+    margin-top: 0;
+  }
+  .vip-signal h1 {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+}

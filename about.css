@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+.navbar-dark {
+  background-color: #09072C !important;
+}
+.nav-item {
+  margin-left: 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+#signin {
+  width: 100px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  text-align: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #2D22DD;
+  color: #2D22DD;
+}
+#register {
+  width: 97px;
+  height: 32px;
+  padding: 4px 16px 4px 16px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  text-align: center;
+  background: #2D22DD;
+  color: #FFFFFF;
+}
+
+.custom-container {
+  width: 95%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.custom-container1 {
+  width: 95%;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 15px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+} 
+.Impressions{
+  border: 1px solid #817AEB;
+  padding: 20px 0px 0px 20px;
+  color: #574EE4;    
+  box-shadow: 0px 10px 20px 0px #2D22DD1A;
+
+}
+.imp {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #010104;
+
+}
+.img-fluid {
+  box-shadow: 0px 10px 20px 0px #00000026;
+  width: 600px;
+  height: 600;
+  border-radius: 0px 60px 0px 60px;
+}
+
+.col-md-6, h2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #1B1485;
+}
+.col-md-6 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #15141F;
+}
+
+.img-fluid1 {
+  width: 207px;
+  height: 204px;
+  border-radius: 100px;
+  opacity: 0px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto auto; 
+  gap: 10px; 
+  margin-top: 30px;
+  width: 92%;
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.item {
+  background: #ABA7F133;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0px #E9EDF940;
+  height: 200px;
+  padding: 16px 16px 11px 16px;
+  border-radius: 10px;
+  /* border: 1px solid #574EE4;
+  border-collapse: collapse; */
+}
+.item h6 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: justified;
+  color: #120E58;
+}
+.item p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.bg-footer {
+  background: linear-gradient(309.88deg, #120E58 20.49%, #09072C  800%);
+
+}
+.col-md-4 {
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: justified;
+
+}
+.col-md-2 {
+  margin-left: 60px;
+  color: #FFFFFF;
+}
+.recommendation {
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.recommendation p a{
+  color: #FFFFFF;
+}
+.follow-us {
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+.follow-us p a {
+  color: #FFFFFF;
+}
+footer {
+background: #09072C;
+color: #fff;
+padding: 20px 0;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: #696699;
+border-top: 2px solid #FFFFFF;
+}
+
+@media all and (max-width: 376px) {
+  .about-us p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .item {
+    height: 220px;
+  }
+  .item h6 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .item p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .custom-container1 .Impressions:nth-child(3),
+  .custom-container1 .Impressions:nth-child(4) {
+    display: none; /* Hide the third and fourth Impressions div */
+  }
+  .Impressions {
+    padding: 20px;
+  }
+  .custom-container1 {
+    margin-left: 0;
+  }
+  .col-md-2 {
+    margin-left: 0;
+  }
+  .col-md-2 p {
+      font-size: 12px;
+  }
+  .follow-us {
+      margin-left: 0;
+  }
+  .follow-us a {
+      font-size: 12px;
+  }
+  .copy-right p {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: justified;
+  }
+}

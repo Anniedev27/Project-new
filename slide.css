@@ -1,0 +1,130 @@
+.main {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content1 {
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px 0px #00000026;
+  padding-bottom: 20px;
+}
+.content1:hover {
+  transition: transform 0.6s ease;
+  transform-origin: center;
+  overflow: hidden;
+  box-shadow: 0px 3px 3px 0px #e48139;
+}
+.column.active {
+  display: block; /* Show the active element */
+}
+
+.content1 h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.content1 p {
+  margin-left: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+}
+.content1 img {
+  border-radius: 20px 20px 0px 0px;
+  height: 65%;
+}
+
+.content1 img:hover {
+  transform: scale(1.1);
+}
+.content1 h3:hover {
+  margin-top: 20px;
+} 
+.content1 a {
+  text-decoration: none;
+}
+.content1 a:hover {
+  text-decoration: none;
+}
+.content1 button {
+  float: right;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+  text-align: left;
+  color:  #241BB1;
+  margin-top: 20px;
+  border: none;
+  background-color: transparent;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+  background: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #2D22DD;
+}
+/* Next and previous buttons */
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  color: #574EE4;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  float: right;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #717171;
+  padding: 10px;
+}

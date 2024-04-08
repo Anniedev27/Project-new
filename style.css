@@ -1,0 +1,274 @@
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar-dark {
+            background-color: #09072C ;
+        }
+        
+        .nav-item {
+            margin-left: 30px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+        }
+        #signin {
+            width: 100px;
+            height: 32px;
+            padding: 4px 16px 4px 16px;
+            text-align: center;
+            gap: 10px;
+            border-radius: 5px;
+            border: 1px solid #2D22DD;
+            color: #2D22DD;
+        }
+        #register {
+            width: 97px;
+            height: 32px;
+            padding: 4px 16px 4px 16px;
+            gap: 10px;
+            border-radius: 5px;
+            opacity: 0px;
+            text-align: center;
+            background: #2D22DD;
+            color: #FFFFFF;
+        }
+    
+        /* end of nav bar styling */
+
+        /* section styling */
+
+        .ads {
+          background: #120E58;
+          color: #FFFFFF;
+          height: 103px;
+          border-top: 1px solid #FFFFFF;
+        }
+        .ads h5 {
+          font-family: Poppins;
+          font-size: 32px;
+          font-weight: 500;
+          margin: 0 auto;
+        }
+        .section-container {
+          width: 95%; 
+          max-width: 95%; 
+          margin: 0 auto;
+          /* text-align: center; */
+          
+        }
+        .bull-container {
+          height: 400px;
+          width: 768px; 
+          margin-bottom: 20px;
+          margin: 0 auto;
+          margin-top: 30px;
+        }
+        .bull-container img {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+        }
+        .bull-container p {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: justified;
+          margin-top: 10px;
+        }
+        section h2 {
+        font-family: Poppins;
+        font-size: 56px;
+        font-weight: 700;
+        color: #1B1485;
+        margin: 35px 0px 15px 0px;
+        text-align: center;
+        }
+
+        .date {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: justified;
+        margin-bottom: 10px;
+        }
+
+        .new-container {
+          width: 716px;
+          margin: 0 auto;
+        }
+        
+        .btc-news {
+          font-family: Poppins;
+          font-size: 28px;
+          font-weight: 600;
+        }
+        .content {
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: justified;
+        }
+        .grid-container {
+          display: grid;
+          height: 481px;
+          grid-template-columns: 53.4% 45%;
+          gap: 20px; 
+        }
+    
+        .grid-container div {
+          background: linear-gradient(309.88deg, #120E58 7.49%, #241BB1 100%); 
+          box-shadow: 0px 0px 15px 0px #0000001A;
+          margin-top: 20px;
+        }
+        .grid-container div h1 {
+          font-family: Poppins;
+          font-size: 56px;
+          font-weight: 700;
+          color: #FFFFFF;
+          text-align: center;
+          margin-top: 110px;
+        }
+        .grid-container div p {
+          font-family: Poppins;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: center;
+          color:#FFFFFF;
+        }
+        .image1 {
+          margin-bottom: 40px;
+        }
+        .image2 {
+          max-width: 100%;
+          height: auto; 
+          display: block;
+          margin-left: 80px;
+          margin-top: 50px;
+        }
+        .grid-container1 {
+          display: grid;
+          height: 488px;
+          grid-template-columns: 44% 44% 10%;
+          gap: 12px; 
+        }
+        .grid-container1 div {
+          height: 100%;
+          box-shadow: 0px 10px 20px 0px #00000026;
+          border-radius: 20px;
+        }
+        .grid-container1 div img {
+          width: 100%;
+          height: 352px;
+          border-radius: 20px 20px 0px 0px;
+        }
+        .grid-container1 div h3 {
+          font-family: Poppins;
+          font-size: 28px;
+          font-weight: 600;
+          line-height: 42px;
+          text-align: justified;
+          color: #000000;
+          padding: 20px 0px 0px 20px;
+        }
+        .grid-container1 div p {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          text-align: justified;
+          color: #000000;
+          padding-left: 20px;
+        }
+        .grid-container1 div h6 {
+          float: right;
+          margin-right: 20px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: left;
+        }
+        .grid-container1 div h6 a {
+          color: #120E58;
+        }
+        .grid-container1 div h6 a:hover {
+          text-decoration: none;
+        }
+        /* end of section styling */
+
+        /* styling for home page */
+        .crypto-signals {  
+          height: 704px; 
+          background-image: linear-gradient(309.88deg, rgba(18, 14, 88, 0.749), #241BB1), url('images/bitcoin.png');
+          background-size: cover; 
+        }
+        
+        /* footer styling */
+        .bg-footer {
+          background: linear-gradient(309.88deg, #120E58 20.49%, #09072C  800%);
+          margin-top: 20px;
+        }
+        .col-md-4 {
+            color: #FFFFFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: justified;
+
+        }
+        .col-md-2 {
+            margin-left: 60px;
+            color: #FFFFFF;
+        }
+        .recommendation {
+            margin-left: 10px;
+            color: #FFFFFF;
+        }
+        .recommendation p a{
+            color: #FFFFFF;
+        }
+        .recommendation p a:hover {
+          text-decoration: none;
+        }
+        .follow-us {
+            margin-left: 10px;
+            color: #FFFFFF;
+        }
+        .follow-us p a {
+            color: #FFFFFF;
+        }
+        .follow-us p a:hover {
+          text-decoration: none;
+        }
+        footer {
+        background: #09072C;
+        color: #fff;
+        padding: 20px 0;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #696699;
+        border-top: 2px solid #FFFFFF;
+        }
+        footer .copy-right p span a {
+          color:#696699;
+        }
+
+        .navbar-toggler-icon {
+          color: #FFFFFF;
+          border: none;
+        }

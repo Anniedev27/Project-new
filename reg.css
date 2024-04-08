@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  height: 500px;
+
+}
+.col-md-6 {
+  height: 70%;
+}
+form{
+  width: 550px;
+  height: 435px;
+  margin: 0 auto;
+}
+h4 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  text-align: justified;
+  color:#1B1485;
+}
+.form-group1 {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #817AEB;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0%;
+  
+}
+.form-group img {
+  width: 15px;
+  height: 15px;
+  margin-left: 30px;
+}
+.form-control{
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  border-radius: 0%;
+  margin-left: 5px;
+}
+
+.form-control::placeholder {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  color: #817AEB;
+  margin-left: 100px; 
+}
+.mb-3  {
+  margin-top: 30px;
+  background-color: transparent;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  color: #817AEB;
+  margin-left: 370px;
+}
+
+.btn-register {
+  width: 156px;
+  height: 68px;
+  border-radius: 10px;
+  background: #2D22DD;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+.btn-register a{
+  color: #FFFFFF;
+}
+.btn-register a:hover{
+  color: #FFFFFF;
+}
+.sign-up {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: justified;
+  color: #817AEB;
+  margin-top: 30px;
+}
